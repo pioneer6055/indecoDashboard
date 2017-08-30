@@ -1,0 +1,159 @@
+{
+ "teamNumber": "6055",
+ "screenUpdateRate": 500,  
+ "screenLeft": 1,
+ "screenWidth": 1024,
+ "screenTop": 1,
+ "screenHeight": 240,
+ "screenFont": "arial",
+ "screenFontSize": 12,
+ "screenTitle": "IndeCo Dashboard",
+ "networkTablesAddress": "10.10.247.117",
+ "networkTablesTableName": "datatable",
+ "cameraURL": "http://192.168.72.164/mjpg/video.mjpg",
+ "cameraImageLeft": 704,
+ "cameraImageTop": 1,
+ "cameraImageWidth": 320,
+ "cameraImageHeight": 240,
+ "cameraImageDocked": "right",
+ "hexcolors": "000000=black, ffffff=white, f45342=red, f48c42=orange, f4f142=yellow, 42f44e=green, 42f4eb=cyan, 424bf4=blue, dc42f4=violet",
+ 
+ "GUILabels": [
+ {
+ "x": 1,
+ "y": 50,
+ "width": 50,
+ "height": 20,
+ "backColor": "000000",
+ "foreColor": "42f44e",
+ "label": "My X: "
+ },
+ {
+ "x": 1,
+ "y": 100,
+ "width": 50,
+ "height": 20,
+ "backColor": "000000",
+ "foreColor": "42f4eb",
+ "label": "My Y: "
+ },
+ {
+ "x": 340,
+ "y": 50,
+ "width": 50,
+ "height": 20,
+ "backColor": "000000",
+ "foreColor": "ffffff",
+ "label": "My Z: "
+ },
+ {
+ "x": 340,
+ "y": 100,
+ "width": 50,
+ "height": 20,
+ "backColor": "000000",
+ "foreColor": "ffffff",
+ "label": "My M: "
+ },
+ {
+ "x": 1,
+ "y": 150,
+ "width": 50,
+ "height": 20,
+ "backColor": "000000",
+ "foreColor": "42f4eb",
+ "label": "My I: "
+ }
+ ],
+ 
+"GUIValues": [
+ {
+ "x": 100,
+ "y": 50,
+ "width": 100,
+ "height": 20,
+ "decimals": 1,
+ "backColor": "000000",
+ "foreColor": "42f44e",
+ "keyName": "X"
+ },
+ {
+ "x": 100,
+ "y": 100,
+ "width": 50,
+ "height": 20,
+ "decimals": 1,
+ "backColor": "000000",
+ "foreColor": "42f4eb",
+ "keyName": "Y"
+ }
+ ],
+ 
+ "GUIInputs": [
+ {
+ "x": 100,
+ "y": 150,
+ "width": 100,
+ "height": 20,
+ "backColor": "000000",
+ "foreColor": "42f44e",
+ "keyName": "I"
+ }
+ ],
+ 
+ "GUISwitches": [
+ {
+ "x": 550,
+ "y": 50,
+ "width": 80,
+ "height": 20,
+ "onColor": "42f44e",
+ "offColor": "f45342",
+ "foreColor": "000000",
+ "caption": "Test",
+ "keyName": "B"
+ }
+ ],
+ 
+ "GUILists": [
+ {
+ "x": 550,
+ "y": 100,
+ "width": 20,
+ "height": 20,
+ "backColor": "e2e2e2",
+ "foreColor": "ffffff",
+ "activeColor": "42f44e",
+ "keyName": "L",
+ "dataList": ["one","two","three","four","five","six"]
+ }
+ ],
+ 
+"GUISliders": [
+ {
+ "x": 400,
+ "y": 50,
+ "width": 100,
+ "height": 20,
+ "backColor": "424bf4",
+ "foreColor": "ffffff",
+ "slideColor": "e2e2e2",
+ "rangeMin": "0",
+ "rangeMax": "255",
+ "keyName": "Z"
+ },
+ {
+ "x": 400,
+ "y": 100,
+ "width": 100,
+ "height": 20,
+ "backColor": "424bf4",
+ "foreColor": "ffffff",
+ "slideColor": "e2e2e2",
+ "rangeMin": "0",
+ "rangeMax": "255",
+ "keyName": "M"
+ }
+ ] 
+ 
+}
